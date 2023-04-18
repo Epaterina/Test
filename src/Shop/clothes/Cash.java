@@ -25,6 +25,8 @@ public class Cash {
                     wallet -= cloth.price;
                     System.out.println("У вас осталось " + wallet);
                 }
+
+
             }
         }
 
