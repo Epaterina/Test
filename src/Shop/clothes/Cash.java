@@ -13,6 +13,7 @@ public class Cash {
     }
 
     public void byCloth(Cloth cloth) {
+
             if (wallet > cloth.price) {
                 if (count == 3) {
                     int discount = cloth.price * 50 / 100;
